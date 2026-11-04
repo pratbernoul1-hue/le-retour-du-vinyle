@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le retour du vinyle</title>
+  <link rel="stylesheet" href="css/monStyles.css">
+</head>
+
+<body>
+  <a class="logo-site" href="#vinyle-centre" aria-label="Le retour du vinyle — accueil"><img src="fichier.svg"
+      alt="Logo vinyle et notes de musique"></a>
+  <div id="impress">
+    <div id="vinyle-centre" class="step" data-x="0" data-y="0"></div>
+    <div id="vinyle-explique" class="step" data-x="0" data-y="0"></div>
+    <div id="fabrication" class="step" data-x="0" data-y="0"></div>
+    <div id="balance" class="step" data-x="0" data-y="0"></div>
+    <div id="retour" class="step" data-x="0" data-y="0"></div>
+    <div id="ventes" class="step" data-x="0" data-y="0"></div>
+    <div class="scene">
+      <div class="intro">
+        <div class="titre-intro">
+          C'EST QUOI UN VINYLE ?
+        </div>
+        <div class="vinyle">
+          <svg viewBox="0 0 1000 1000">
+            <circle class="disque" cx="500" cy="500" r="475" />
+            <g class="sillons">
+              <circle cx="500" cy="500" r="440" />
+              <circle cx="500" cy="500" r="405" />
+              <circle cx="500" cy="500" r="370" />
+              <circle cx="500" cy="500" r="335" />
+              <circle cx="500" cy="500" r="300" />
+              <circle cx="500" cy="500" r="265" />
+            </g>
+            <circle class="sillon-actif" cx="500" cy="500" r="387" />
+            <circle class="orange" cx="500" cy="500" r="205" />
+            <circle class="rose" cx="500" cy="500" r="140" />
+            <circle class="violet" cx="500" cy="500" r="80" />
+            <circle class="trou" cx="500" cy="500" r="17" />
+          </svg>
+          <div class="formats">
+            <span>33</span>
+            <i>/</i>
+            <span>45</span>
+          </div>
+        </div>
+        <div class="bras-platine">
+          <div class="pivot"></div>
+          <div class="bras-metal"></div>
+          <div class="cellule"></div>
+          <div class="aiguille"></div>
+        </div>
+        <svg class="connexions" viewBox="0 0 1200 750">
+          <path class="connexion c1" d="M370 240 C290 210 255 175 210 145" />
+          <circle class="point p1" cx="370" cy="240" r="7" />
+          <path class="connexion c2" d="M395 375 C270 370 225 350 170 350" />
+          <circle class="point p2" cx="395" cy="375" r="7" />
+          <path class="connexion c3" d="M520 545 C420 610 330 630 245 630" />
+          <circle class="point p3" cx="520" cy="545" r="7" />
+          <path class="connexion c4" d="M675 365 C790 335 875 270 945 220" />
+          <circle class="point p4" cx="675" cy="365" r="7" />
+        </svg>
+        <div class="annotation annotation1">
+          <span>APPARITION</span>
+          <strong>FIN DES<br>ANNÉES 1940</strong>
+        </div>
+        <div class="annotation annotation2">
+          <span>LE SON</span>
+          <strong>GRAVÉ DANS<br>LES SILLONS</strong>
+        </div>
+        <div class="annotation annotation3">
+          <span>LECTURE</span>
+          <strong>AIGUILLE<br>+ PLATINE</strong>
+        </div>
+        <div class="annotation annotation4">
+          <span>DEUX FORMATS</span>
+          <strong>33 TOURS<br>45 TOURS</strong>
+        </div>
+      </div>
+      <div class="fabrication-zone">
+        <div class="titre-fabrication">
+          COMMENT EST-IL FABRIQUÉ ?
+        </div>
+        <svg class="flux" viewBox="0 0 1200 750">
+          <path class="flux-base" d="
+            M40 370
+            C80 370 85 320 120 320
+            C155 320 160 420 195 420
+            C230 420 235 290 270 290
+            C305 290 310 390 345 390
+            C400 390 410 450 455 450
+            C500 450 510 350 555 350
+            C610 350 620 390 660 390
+            C710 390 720 350 760 350
+            C810 350 820 390 860 390
+            C915 390 925 350 965 350
+            C1020 350 1035 390 1080 390
+            C1120 390 1140 370 1170 370
+            " />
+          <path class="flux-anime" d="
+            M40 370
+            C80 370 85 320 120 320
+            C155 320 160 420 195 420
+            C230 420 235 290 270 290
+            C305 290 310 390 345 390
+            C400 390 410 450 455 450
+            C500 450 510 350 555 350
+            C610 350 620 390 660 390
+            C710 390 720 350 760 350
+            C810 350 820 390 860 390
+            C915 390 925 350 965 350
+            C1020 350 1035 390 1080 390
+            C1120 390 1140 370 1170 370
+            " />
+        </svg>
+        <div class="etape etape-son">
+          <div class="numero">01</div>
+          <strong>SON</strong>
+          <span>
+            Préparation<br>
+            du son
+          </span>
+          <div class="haut-parleur">
+            <div class="hp-caisse"></div>
+            <div class="hp-cone"></div>
+            <div class="hp-centre"></div>
+          </div>
+        </div>
+        <div class="etape etape-gravure">
+          <div class="numero">02</div>
+          <strong>GRAVURE</strong>
+          <span>
+            Gravure du<br>
+            disque maître
+          </span>
+          <div class="gravure-visuel">
+            <div class="mini-disque-gravure">
+              <div class="rainure r1"></div>
+              <div class="rainure r2"></div>
+              <div class="rainure r3"></div>
+            </div>
+            <div class="stylet">
+              <div class="stylet-bras"></div>
+              <div class="stylet-pointe"></div>
+            </div>
+          </div>
+        </div>
+        <div class="etape etape-matrice">
+          <div class="numero">03</div>
+          <strong>MATRICE</strong>
+          <span>
+            Création de<br>
+            la matrice
+          </span>
+          <div class="matrice-visuel">
+            <div class="matrice-couche mc1"></div>
+            <div class="matrice-couche mc2"></div>
+            <div class="matrice-couche mc3"></div>
+          </div>
+        </div>
+        <div class="etape etape-pressage">
+          <div class="numero">04</div>
+          <strong>PRESSAGE</strong>
+          <span>
+            Pressage<br>
+            du PVC
+          </span>
+          <div class="presse-visuel">
+            <div class="presse-haut"></div>
+            <div class="pvc"></div>
+            <div class="disque-forme"></div>
+            <div class="presse-bas"></div>
+          </div>
+        </div>
+        <div class="etape etape-finition">
+          <div class="numero">05</div>
+          <strong>FINITION</strong>
+          <span>
+            Découpe et<br>
+            contrôle
+          </span>
+          <div class="final-visuel">
+            <div class="final-vinyle">
+              <div class="final-label">
+                <div class="final-label2"></div>
+              </div>
+            </div>
+            <svg class="cercle-decoupe" viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="88" />
+            </svg>
+          </div>
+        </div>
+        <div class="fleche-finale">
+          →
+        </div>
+        <div class="sortie">
+          <div class="vinyle-sortie">
+            <div class="label-sortie">
+              <div></div>
+            </div>
+          </div>
+          <span>PRÊT À ÊTRE ÉCOUTÉ</span>
+        </div>
+      </div>
+      <section class="nouvelle balance-zone" aria-labelledby="titre-balance">
+        <h1 id="titre-balance">LES DEUX FACES DU VINYLE</h1>
+        <p class="chapeau">Un objet à aimer. Un objet dont il faut prendre soin.</p>
+        <svg class="disque-double" viewBox="0 0 1000 500" aria-hidden="true">
+          <defs>
+            <clipPath id="gauche">
+              <rect width="250" height="500" />
+            </clipPath>
+            <clipPath id="droite">
+              <rect x="250" width="250" height="500" />
+            </clipPath>
+          </defs>
+          <g transform="translate(250 0)">
+            <g class="demi gauche" clip-path="url(#gauche)">
+              <circle cx="250" cy="250" r="235" fill="#151515" />
+              <circle cx="250" cy="250" r="120" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="140" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="160" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="180" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="200" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="220" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="100" fill="#f8b94c" />
+              <circle cx="250" cy="250" r="68" fill="#ef7964" />
+              <circle cx="250" cy="250" r="38" fill="#aaa8df" />
+              <circle cx="250" cy="250" r="8" fill="#151515" />
+            </g>
+            <g class="demi droite" clip-path="url(#droite)">
+              <circle cx="250" cy="250" r="235" fill="#151515" />
+              <circle cx="250" cy="250" r="120" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="140" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="160" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="180" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="200" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="220" fill="none" stroke="#363636" stroke-width="2" />
+              <circle cx="250" cy="250" r="100" fill="#f8b94c" />
+              <circle cx="250" cy="250" r="68" fill="#ef7964" />
+              <circle cx="250" cy="250" r="38" fill="#aaa8df" />
+              <circle cx="250" cy="250" r="8" fill="#151515" />
+            </g>
+          </g>
+        </svg>
+        <div class="face face-a">
+          <span class="petit">FACE A / LE PLAISIR</span>
+          <h2>À garder près de soi</h2>
+          <p>
+            <b>Un objet physique</b>
+            <br>Une pochette à regarder, un disque à manipuler.
+          </p>
+          <p>
+            <b>Une collection</b>
+            <br>Des albums que l’on choisit et conserve.
+          </p>
+          <p>
+            <b>Une écoute particulière</b>
+            <br>Poser l’aiguille, écouter une face, prendre le temps.
+          </p>
+        </div>
+        <div class="face face-b">
+          <span class="petit">FACE B / LES CONTRAINTES</span>
+          <h2>À traiter avec soin</h2>
+          <p>
+            <b>Fragile</b>
+            <br>Rayures, poussière et chaleur demandent de l’attention.
+          </p>
+          <p>
+            <b>Encombrant</b>
+            <br>Les pochettes et les disques prennent de la place.
+          </p>
+          <p>
+            <b>Une platine nécessaire</b>
+            <br>Avec une cellule et un système d’amplification adapté.
+          </p>
+        </div>
+      </section>
+      <section class="nouvelle retour-zone" aria-labelledby="titre-retour">
+        <h1 id="titre-retour">POURQUOI ÇA REVIENT ?</h1>
+        <p class="chapeau">Explore les cinq envies qui font tourner le disque.</p>
+        <div class="pochette-scene">
+          <svg class="disque-pochette" viewBox="0 0 500 500" aria-hidden="true">
+            <circle cx="250" cy="250" r="235" fill="#151515" />
+            <circle cx="250" cy="250" r="120" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="140" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="160" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="180" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="200" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="220" fill="none" stroke="#363636" stroke-width="2" />
+            <circle cx="250" cy="250" r="100" fill="#f8b94c" />
+            <circle cx="250" cy="250" r="68" fill="#ef7964" />
+            <circle cx="250" cy="250" r="38" fill="#aaa8df" />
+            <circle cx="250" cy="250" r="8" fill="#151515" />
+          </svg>
+          <div class="pochette">
+            <span>LE RETOUR<br>DU VINYLE</span>
+            <svg viewBox="0 0 300 300" aria-hidden="true">
+              <circle cx="150" cy="150" r="125" fill="#aaa8df" />
+              <circle cx="150" cy="150" r="90" fill="#ef7964" />
+              <circle cx="150" cy="150" r="55" fill="#f8b94c" />
+              <path d="M40 200 Q150 20 260 200" fill="none" stroke="#151515" stroke-width="8" />
+            </svg>
+            <small>UNE AUTRE FAÇON D’ÉCOUTER</small>
+          </div>
+        </div>
+        <div class="raisons">
+          <details class="raison-css nostalgie" name="motifs" open>
+            <summary class="raison nostalgie">
+              <span>01</span>NOSTALGIE
+            </summary>
+            <p>Retrouver un geste, un album ou un souvenir : le disque relie la musique à une histoire personnelle.</p>
+          </details>
+          <details class="raison-css retro" name="motifs">
+            <summary class="raison retro">
+              <span>02</span>ESTHÉTIQUE RÉTRO
+            </summary>
+            <p>Grandes pochettes, graphisme et platines : une esthétique rétro qui fait aussi partie du plaisir.</p>
+          </details>
+          <details class="raison-css collection" name="motifs">
+            <summary class="raison collection">
+              <span>03</span>COLLECTION
+            </summary>
+            <p>Construire une discothèque, chercher une référence, échanger des trouvailles : chaque album trouve sa
+              place.</p>
+          </details>
+          <details class="raison-css limitees" name="motifs">
+            <summary class="raison limitees">
+              <span>04</span>ÉDITIONS LIMITÉES
+            </summary>
+            <p>Couleurs, tirages numérotés ou pochettes alternatives : certaines éditions donnent envie de posséder une
+              version singulière.</p>
+          </details>
+          <details class="raison-css physique" name="motifs">
+            <summary class="raison physique">
+              <span>05</span>UN OBJET FACE AU STREAMING
+            </summary>
+            <p>Face au streaming, le disque offre un objet tangible et un rituel d’écoute. Les deux usages peuvent
+              coexister.</p>
+          </details>
+        </div>
+      </section>
+      <section class="nouvelle ventes-zone" aria-labelledby="titre-ventes">
+        <h1 id="titre-ventes">AVANT / AUJOURD’HUI</h1>
+        <p class="chapeau">États-Unis · 2024 · millions d’unités expédiées, nettes des retours</p>
+        <div class="legende"><span class="cle-vinyle">● VINYLES LP/EP</span><span class="cle-cd">● CD</span></div>
+        <svg id="graphique" class="graphique-2024" viewBox="0 0 1000 390" role="img"
+          aria-label="En 2024 aux États-Unis : 43,6 millions de vinyles LP/EP et 32,9 millions de CD expédiés">
+          <g id="grille">
+            <line x1="70" x2="940" y1="330.0" y2="330.0" />
+            <text x="48" y="335.0" text-anchor="end">0</text>
+            <line x1="70" x2="940" y1="272.0" y2="272.0" />
+            <text x="48" y="277.0" text-anchor="end">10</text>
+            <line x1="70" x2="940" y1="214.0" y2="214.0" />
+            <text x="48" y="219.0" text-anchor="end">20</text>
+            <line x1="70" x2="940" y1="156.0" y2="156.0" />
+            <text x="48" y="161.0" text-anchor="end">30</text>
+            <line x1="70" x2="940" y1="98.0" y2="98.0" />
+            <text x="48" y="103.0" text-anchor="end">40</text>
+            <line x1="70" x2="940" y1="40.0" y2="40.0" />
+            <text x="48" y="45.0" text-anchor="end">50</text>
+          </g>
+          <g class="barre">
+            <rect x="250" y="77.12" width="170" height="252.88" fill="#bd4e40" />
+            <text x="335" y="60" text-anchor="middle">43,6 M</text>
+          </g>
+          <g class="barre">
+            <rect x="580" y="139.18" width="170" height="190.82" fill="#70689c" />
+            <text x="665" y="122" text-anchor="middle">32,9 M</text>
+          </g>
+          <text x="335" y="365" text-anchor="middle">VINYLE LP/EP</text>
+          <text x="665" y="365" text-anchor="middle">CD</text>
+        </svg>
+        <div class="lecture"><strong>2024</strong><span>VINYLE <b>43,6 M</b></span><span>CD <b>32,9 M</b></span>
+          <p>Le vinyle dépasse le CD dans ce périmètre.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/impress.js"></script>
+</body>
+
+</html>
